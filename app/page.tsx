@@ -3,6 +3,11 @@ import Hero from "../components/Hero";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { FaHome } from "react-icons/fa";
 import Grid from "@/components/Grid";
+import Projects from "@/components/Projects";
+import { GrStatusInfo } from "react-icons/gr";
+import { FaComputer } from "react-icons/fa6";
+import { MdMiscellaneousServices } from "react-icons/md";
+import { IoMailUnreadOutline } from "react-icons/io5";
 
 export default function Home() {
   return (
@@ -11,13 +16,23 @@ export default function Home() {
         <FloatingNav
           navItems={[
             { name: "Home", link: "/", icon: <FaHome /> },
-            { name: "About", link: "#about" },
-            { name: "Services", link: "#services" },
-            { name: "Contact", link: "#contact" },
+            { name: "About", link: "#about", icon: <GrStatusInfo /> },
+            { name: "Projects", link: "#projects", icon: <FaComputer /> },
+            {
+              name: "Services",
+              link: "#services",
+              icon: <MdMiscellaneousServices />,
+            },
+            {
+              name: "Contact",
+              link: "#contact",
+              icon: <IoMailUnreadOutline />,
+            },
           ]}
         />
         <Hero />
         <Grid />
+        <Projects />
       </div>
     </main>
   );

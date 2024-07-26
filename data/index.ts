@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Services", link: "#services" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -18,7 +18,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "We are flexible with time zone communications",
+    title: "Flexible with time zone communications",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -72,35 +72,35 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    title: "Virtus Bookstore",
+    des: "MERN Stack bookstore with a payment gateway, user authentication, and a responsive design.",
+    img: "/virtus.webp",
+    iconLists: ["/re.svg", "/tail.svg", "/mongo.webp", "/node.webp"],
+    link: "https://www.virgiliocordon.com/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    title: "Brainwave",
+    des: "Modern UI/UX website using React.js and Tailwind CSS. It has Parallax Animations, and a responsive design.",
+    img: "/brainwave.webp",
+    iconLists: ["/re.svg", "/tail.svg", "/fm.svg"],
+    link: "https://brainwave-navy.vercel.app/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    title: "Lens Loop",
+    des: "A social media app similar to Instagram, built with React.js, Typescript, and Tailwind CSS, ShadCN, Appwrite.",
+    img: "/lensloop.jpg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/app.svg"],
+    link: "https://lens-loop-beta.vercel.app/",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    title: "Develop",
+    des: "Marketing agency landing page built using SASS, LESS, following BEM best practices and features dark mode.",
+    img: "/develop.webp",
+    iconLists: ["/css.webp", "/html.webp", "/js.webp"],
+    link: "https://develop-marketing.vercel.app/",
   },
 ];
 

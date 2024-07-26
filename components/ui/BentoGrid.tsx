@@ -4,12 +4,7 @@ import { cn } from "@/lib/utils";
 import { BackgroundGradientAnimation } from "./GradientBg";
 import { GlobeDemo } from "./GridGlobe";
 import MagicButton from "./MagicButton";
-import { Boxes } from "./background-boxes";
-import { EvervaultCard, Icon } from "./EvervaultCard";
-import { FlipWords } from "./FlipWords";
 import { IoCopyOutline } from "react-icons/io5";
-import Lottie from "react-lottie";
-import animationData from "@/data/confetti.json";
 import { useState } from "react";
 import { Vortex } from "./Vortex";
 
@@ -55,15 +50,6 @@ export const BentoGridItem = ({
   const rightLists = ["NodeJS", "NextJS", "MongoDB", "Firebase"];
 
   const [copied, setCopied] = useState(false);
-
-  const defaultOptions = {
-    loop: copied,
-    autoplay: copied,
-    animationData,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
-  };
 
   const handleCopy = () => {
     const text = "byron303@gmail.com";
@@ -142,8 +128,7 @@ export const BentoGridItem = ({
               />
               <div className="z-20">
                 <h3 className="text-lg md:text-2xl">
-                  We prioritize client collaboration, fostering open
-                  communication
+                  Seamlessly blending development and marketing
                 </h3>
               </div>
             </div>
@@ -185,9 +170,7 @@ export const BentoGridItem = ({
                 className={`absolute -bottom-5 right-0 ${
                   copied ? "block" : "block"
                 }`}
-              >
-                <Lottie options={defaultOptions} height={200} width={400} />
-              </div>
+              ></div>
 
               <MagicButton
                 title={copied ? "Email is Copied!" : "Copy our Email"}
