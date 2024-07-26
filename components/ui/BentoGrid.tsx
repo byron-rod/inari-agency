@@ -133,13 +133,15 @@ export const BentoGridItem = ({
             <div className="flex flex-col items-center w-full justify-center font-bold">
               <Vortex
                 backgroundColor="black"
+                rangeY={800}
                 baseHue={200}
                 baseSpeed={0.1}
                 rangeSpeed={0.2}
+                baseRadius={0.5}
                 className="flex items-center flex-col justify-center px-2 md:px-10 py-4 w-full h-full"
               />
               <div className="z-20">
-                <h3 className="text-2xl">
+                <h3 className="text-lg md:text-2xl">
                   We prioritize client collaboration, fostering open
                   communication
                 </h3>
