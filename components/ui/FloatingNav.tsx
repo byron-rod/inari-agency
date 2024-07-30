@@ -79,7 +79,7 @@ export const FloatingNav = ({
               "relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-600 dark:hover:text-[#DD977A] hover:text-neutral-500 group"
             )}
           >
-            <span className="block mr-1">{navItem.icon}</span>
+            <span className="block mr-1 md:hidden">{navItem.icon}</span>
             {/* Tooltip for mobile */}
             <span className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 text-sm px-2 py-1 bg-black text-white rounded opacity-0 transition-opacity duration-300 group-hover:opacity-100 sm:hidden">
               {navItem.name}
@@ -90,11 +90,10 @@ export const FloatingNav = ({
             </span>
           </Link>
         ))}
-        {/* remove this login btn */}
-        {/* <button className="border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full">
+        <button className="border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full">
           <span>Login</span>
           <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent  h-px" />
-        </button> */}
+        </button>
       </motion.div>
     </AnimatePresence>
   );

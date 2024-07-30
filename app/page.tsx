@@ -8,6 +8,9 @@ import { GrStatusInfo } from "react-icons/gr";
 import { FaComputer } from "react-icons/fa6";
 import { MdMiscellaneousServices } from "react-icons/md";
 import { IoMailUnreadOutline } from "react-icons/io5";
+import Clients from "@/components/Clients";
+import Services from "@/components/Services";
+import Process from "@/components/Process";
 
 export default function Home() {
   return (
@@ -17,12 +20,12 @@ export default function Home() {
           navItems={[
             { name: "Home", link: "/", icon: <FaHome /> },
             { name: "About", link: "#about", icon: <GrStatusInfo /> },
-            { name: "Projects", link: "#projects", icon: <FaComputer /> },
             {
               name: "Services",
               link: "#services",
               icon: <MdMiscellaneousServices />,
             },
+            { name: "Projects", link: "#projects", icon: <FaComputer /> },
             {
               name: "Contact",
               link: "#contact",
@@ -32,7 +35,10 @@ export default function Home() {
         />
         <Hero />
         <Grid />
+        <Services />
+        <Process />
         <Projects />
+        <Clients />
       </div>
     </main>
   );

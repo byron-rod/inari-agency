@@ -107,40 +107,40 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Byron and his team was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project.",
+    name: "Virgilio Cordon",
+    title: "CEO of Virtus Institute",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Byron and his team was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project.",
+    name: "Virgilio Cordon",
+    title: "CEO of Virtus Institute",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Byron and his team was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project.",
+    name: "Virgilio Cordon",
+    title: "CEO of Virtus Institute",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Byron and his team was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project.",
+    name: "Virgilio Cordon",
+    title: "CEO of Virtus Institute",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Byron and his team was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project.",
+    name: "Virgilio Cordon",
+    title: "CEO of Virtus Institute",
   },
 ];
 
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
+    name: "Render",
     img: "/cloud.svg",
     nameImg: "/cloudName.svg",
   },
@@ -158,7 +158,7 @@ export const companies = [
   },
   {
     id: 4,
-    name: "stream",
+    name: "MongoDB",
     img: "/s.svg",
     nameImg: "/streamName.svg",
   },
@@ -173,29 +173,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Full Stack Development",
+    desc: "Development of web applications using modern frontend and backend technologies.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "UX/UI and Web Design",
+    desc: "We specialize in minimalistic modern design, with a focus on responsive design and user experience.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
+    id: 3,
+    title: "Social Media Marketing",
+    desc: "Meta certified social media marketing, for optimized campaigns and increased user engagement.",
+    className: "md:col-span-2", // change to md:col-span-2
+    thumbnail: "/exp2.svg",
+  },
+  {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Search Engine Optimization",
+    desc: "SEO optimization for your website, to increase your visibility and reach.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
