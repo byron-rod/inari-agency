@@ -119,6 +119,17 @@ export function Globe({ globeConfig, data }: WorldProps) {
     for (let i = 0; i < arcs.length; i++) {
       const arc = arcs[i];
       const rgb = hexToRgb(arc.color) as { r: number; g: number; b: number };
+
+      if (
+        isNaN(arc.startLat) ||
+        isNaN(arc.startLng) ||
+        isNaN(arc.endLat) ||
+        isNaN(arc.endLng)
+      ) {
+        console.warn(`Invalid arc data at index ${i}:`, arc);
+        continue; // Skip invalid data
+      }
+
       points.push({
         size: defaultProps.pointSize,
         order: arc.order,
@@ -222,6 +233,25 @@ export function Globe({ globeConfig, data }: WorldProps) {
       clearInterval(interval);
     };
   }, [globeRef.current, globeData]);
+
+  useEffect(() => {
+    const originalConsoleError = console.error;
+    console.error = (...args) => {
+      if (
+        typeof args[0] === "string" &&
+        args[0].includes(
+          "THREE.BufferGeometry.computeBoundingSphere(): Computed radius is NaN"
+        )
+      ) {
+        return;
+      }
+      originalConsoleError(...args);
+    };
+
+    return () => {
+      console.error = originalConsoleError;
+    };
+  }, []);
 
   return (
     <>

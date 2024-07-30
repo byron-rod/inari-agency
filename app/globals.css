@@ -86,4 +86,7 @@
   .black-gradient {
     background: linear-gradient(90deg, #161a31 0%, #06091f 100%);
   }
+  .big-height {
+    line-height: 2.5rem; /* Adjust the line height as needed */
+  }
 }

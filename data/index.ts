@@ -1,15 +1,8 @@
-export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Services", link: "#services" },
-  { name: "Contact", link: "#contact" },
-];
-
 export const gridItems = [
   {
     id: 1,
-    title: "Always using the latest technologies",
-    description: "",
+    title: "Innovative tech solutions",
+    description: "Powered by",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "absolute right-0 top-0 md:w-full w-60 h-[28rem] opacity-50",
     titleClassName: "justify-end",
@@ -39,7 +32,7 @@ export const gridItems = [
   {
     id: 4,
     title: "Minimalist Modern Design",
-    description: "",
+    description: "UX / UI",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
