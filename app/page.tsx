@@ -11,6 +11,7 @@ import { IoMailUnreadOutline } from "react-icons/io5";
 import Clients from "@/components/Clients";
 import Services from "@/components/Services";
 import Process from "@/components/Process";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -39,6 +40,7 @@ export default function Home() {
         <Process />
         <Projects />
         <Clients />
+        <Footer />
       </div>
     </main>
   );

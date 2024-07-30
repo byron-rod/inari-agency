@@ -24,7 +24,7 @@ const Clients = () => {
 
         <div className="flex flex-col max-lg:mt-10 justify-center">
           <div className="mb-10 items-center justify-center mx-auto">
-            <h2 className="text-2xl md:text-4xl font-bold justify-center">
+            <h2 className="text-3xl md:text-4xl font-bold justify-center">
               Our <span className="text-purple">favorite</span> technologies
             </h2>
           </div>

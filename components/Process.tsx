@@ -8,7 +8,7 @@ const Process = () => {
   return (
     <section className="w-full py-20">
       <h1 className="heading">
-        Our <span className="text-purple">process</span>
+        Our <span className="text-purple">Process</span>
       </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-6">
         <Card

@@ -181,7 +181,7 @@ export const workExperience = [
   {
     id: 2,
     title: "UX/UI and Web Design",
-    desc: "We specialize in minimalistic modern design, with a focus on responsive design and user experience.",
+    desc: "We specialize in minimalistic modern design, with a focus on great user experience and responsive design.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
