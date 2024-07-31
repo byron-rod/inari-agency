@@ -7,6 +7,7 @@ import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
 import { useState } from "react";
 import { Vortex } from "./Vortex";
+import Image from "next/image";
 
 export const BentoGrid = ({
   className,
@@ -46,8 +47,14 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["Express", "ReactJS", "Typescript", "TailwindCSS"];
-  const rightLists = ["NodeJS", "NextJS", "MongoDB", "Firebase"];
+  const leftLists = [
+    "Express",
+    "ReactJS",
+    "Typescript",
+    "TailwindCSS",
+    "NextJS",
+  ];
+  const rightLists = ["NodeJS", "GraphQL", "Astro", "Firebase"];
 
   const [copied, setCopied] = useState(false);
 
@@ -56,8 +63,6 @@ export const BentoGridItem = ({
     navigator.clipboard.writeText(text);
     setCopied(true);
   };
-
-  const words = ["On-Page", "Off-Page", "Technical"];
 
   return (
     <div
@@ -87,10 +92,12 @@ export const BentoGridItem = ({
           } `}
         >
           {spareImg && (
-            <img
+            <Image
               src={spareImg}
               alt={spareImg}
               className="object-cover object-center w-full h-full"
+              width={100}
+              height={100}
             />
           )}
         </div>
@@ -148,10 +155,10 @@ export const BentoGridItem = ({
                     {item}
                   </span>
                 ))}
-                <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
+                {/* <span className="lg:py-4 lg:px-3 py-3 px-3 rounded-lg text-center bg-[#10132E]"></span> */}
               </div>
               <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
-                <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
+                {/* <span className="lg:py-4 lg:px-3 py-3 px-3 rounded-lg text-center bg-[#10132E]"></span> */}
                 {rightLists.map((item, i) => (
                   <span
                     key={i}

@@ -7,6 +7,7 @@ import {
 
 import MagicButton from "./ui/MagicButton";
 import Link from "next/link";
+import Image from "next/image";
 
 const Footer = () => {
   const socialMedia = [
@@ -30,11 +31,13 @@ const Footer = () => {
   return (
     <footer className="w-full pt-20 pb-10" id="contact">
       {/* background grid */}
-      <div className="w-full absolute left-0 md:-bottom-72 min-h-96">
-        <img
-          src="/footer-grid.svg"
+      <div className="w-full md:flex absolute items-center bottom-1 justify-center min-h-96">
+        <Image
+          src="/grid.webp"
           alt="grid"
-          className="w-full h-full opacity-50 "
+          className="opacity-50"
+          width={800}
+          height={800}
         />
       </div>
 

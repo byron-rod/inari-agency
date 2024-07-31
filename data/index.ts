@@ -4,9 +4,9 @@ export const gridItems = [
     title: "Innovative tech solutions",
     description: "Powered by",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
-    imgClassName: "absolute right-0 top-0 md:w-full w-60 h-[28rem] opacity-50",
+    imgClassName: "absolute md:w-full w-60 h-[20rem] opacity-50",
     titleClassName: "justify-end",
-    img: "grid.svg",
+    img: "grid.webp",
     spareImg: "",
   },
   {
@@ -36,8 +36,8 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
-    img: "/grid.svg",
-    spareImg: "/b4.svg",
+    img: "/grid.webp",
+    spareImg: "/b4.webp",
   },
 
   {
@@ -47,8 +47,8 @@ export const gridItems = [
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
-    spareImg: "/grid.svg",
+    img: "/b5.webp",
+    spareImg: "/grid.webp",
   },
   {
     id: 6,
@@ -133,7 +133,7 @@ export const testimonials = [
 export const companies = [
   {
     id: 1,
-    name: "Render",
+    name: "Cloudinary",
     img: "/cloud.svg",
     nameImg: "/cloudName.svg",
   },
@@ -151,7 +151,7 @@ export const companies = [
   },
   {
     id: 4,
-    name: "MongoDB",
+    name: "Stream",
     img: "/s.svg",
     nameImg: "/streamName.svg",
   },
@@ -176,7 +176,7 @@ export const workExperience = [
     title: "UX/UI and Web Design",
     desc: "We specialize in minimalistic modern design, with a focus on great user experience and responsive design.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    thumbnail: "/exp3.webp",
   },
   {
     id: 3,
