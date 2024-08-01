@@ -60,7 +60,7 @@ const RecentProjects = () => {
                         className="p-2"
                         width={50}
                         height={50}
-                        layout="fixed"
+                        loading="lazy"
                       />
                     </div>
                   ))}
