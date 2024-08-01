@@ -15,16 +15,19 @@ const Footer = () => {
       id: 1,
       icon: <FaInstagram />,
       url: "https://www.instagram.com/byronrodriguez.dev/",
+      label: "Instagram profile of Byron Rodriguez",
     },
     {
       id: 2,
       icon: <FaLinkedin />,
       url: "https://www.linkedin.com/in/byron-rodriguez-1b1b3b1b3/",
+      label: "LinkedIn profile of Byron Rodriguez",
     },
     {
       id: 3,
       icon: <FaFacebook />,
       url: "https://www.facebook.com/byronrodriguez.dev",
+      label: "Facebook profile of Byron Rodriguez",
     },
   ];
 
@@ -79,6 +82,7 @@ const Footer = () => {
               href={info.url}
               target="_blank"
               rel="noopener noreferrer"
+              aria-label={info.label}
             >
               <span className="w-12 h-12 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300">
                 {info.icon}

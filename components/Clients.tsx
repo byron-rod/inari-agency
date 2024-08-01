@@ -22,8 +22,8 @@ const Clients = () => {
           />
         </div>
 
-        <div className="flex flex-col max-lg:mt-10 justify-center">
-          <div className="mb-10 items-center justify-center mx-auto">
+        {/* <div className="flex flex-col max-lg:mt-10 justify-center mx-auto">
+          <div className="flex mb-10 items-center justify-center">
             <h2 className="text-3xl md:text-4xl font-bold justify-center">
               Our <span className="text-purple">favorite</span> technologies
             </h2>
@@ -38,8 +38,7 @@ const Clients = () => {
                     width={30}
                     height={30}
                     className="md:w-10 w-5"
-                    layout="fixed"
-                    priority
+                    loading="lazy"
                   />
                   <Image
                     src={company.nameImg}
@@ -47,14 +46,13 @@ const Clients = () => {
                     width={100}
                     height={40}
                     className="md:w-24 w-20"
-                    layout="fixed"
-                    priority
+                    loading="lazy"
                   />
                 </div>
               </React.Fragment>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

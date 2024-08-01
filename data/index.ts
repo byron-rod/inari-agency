@@ -45,7 +45,7 @@ export const gridItems = [
     title: "Best Coding Practices",
     description: "SEO friendly, fast, and responsive",
     className: "md:col-span-3 md:row-span-2",
-    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
+    imgClassName: "absolute right-0 bottom-0 md:w-96 w-36",
     titleClassName: "justify-center md:justify-start lg:justify-center",
     img: "/b5.webp",
     spareImg: "/grid.webp",
@@ -183,14 +183,14 @@ export const workExperience = [
     title: "Social Media Marketing",
     desc: "Meta certified social media marketing, for optimized campaigns and increased user engagement.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    thumbnail: "/exp2.webp",
   },
   {
     id: 4,
     title: "Search Engine Optimization",
     desc: "SEO optimization for your website, to increase your visibility and reach.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/exp4.webp",
   },
 ];
 
