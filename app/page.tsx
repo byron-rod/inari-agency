@@ -20,16 +20,16 @@ export default function Home() {
         <FloatingNav
           navItems={[
             { name: "Home", link: "/", icon: <FaHome /> },
-            { name: "About", link: "#about", icon: <GrStatusInfo /> },
+            { name: "About", link: "/#about", icon: <GrStatusInfo /> },
             {
               name: "Services",
-              link: "#services",
+              link: "/#services",
               icon: <MdMiscellaneousServices />,
             },
-            { name: "Projects", link: "#projects", icon: <FaComputer /> },
+            { name: "Projects", link: "/#projects", icon: <FaComputer /> },
             {
               name: "Contact",
-              link: "#contact",
+              link: "/#contact",
               icon: <IoMailUnreadOutline />,
             },
           ]}

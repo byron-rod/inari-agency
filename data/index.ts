@@ -167,7 +167,7 @@ export const services = [
   {
     id: 1,
     title: "Custom Web Application Development",
-    desc: "We build powerful and efficient web applications from start to finish, using the latest technologies. Our solutions are tailored to meet your unique business needs, ensuring a seamless user experience and robust performance.",
+    desc: "We build powerful and efficient web applications from start to finish. Our solutions are tailored to meet your unique business needs, ensuring a seamless user experience and robust performance.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },

@@ -97,7 +97,7 @@ export const BentoGridItem = ({
             <Image
               src={spareImg}
               alt={spareImg}
-              className="object-cover object-center w-full h-full"
+              className="object-center w-48 h-28 md:w-full md:h-full"
               width={150}
               height={150}
             />
