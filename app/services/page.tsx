@@ -86,7 +86,7 @@ const Services = () => {
           </h2>
           <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
             Elevate your online presence with our expert SEO services. We use
-            cutting-edge techniques to improve your website's visibility on
+            cutting-edge techniques to improve your website&apos;s visibility on
             search engines, driving organic traffic and boosting your rankings.
             Our comprehensive approach includes keyword research, on-page
             optimization, technical SEO, and content strategy to ensure your
@@ -98,7 +98,7 @@ const Services = () => {
             Social Media Management
           </h2>
           <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
-            Maximize your brand's impact on social media with our tailored
+            Maximize your brand&apos;s impact on social media with our tailored
             management services. We create and curate engaging content, manage
             your social media profiles, and interact with your audience to build
             a strong online community. Our strategies are designed to increase
