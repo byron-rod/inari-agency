@@ -85,7 +85,7 @@ export const FloatingNav = ({
               {navItem.name}
             </span>
             {/* Visible name for larger screens */}
-            <span className="text-sm !cursor-pointer hidden sm:flex">
+            <span className="text-lg !cursor-pointer hidden sm:flex">
               {navItem.name}
             </span>
           </Link>

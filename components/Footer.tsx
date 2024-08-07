@@ -69,9 +69,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <span className="cursor-pointer text-[#DD977A]">
-              Byron Rodriguez
-            </span>
+            <span className="cursor-pointer text-[#DD977A]">Inari Agency</span>
           </Link>
         </p>
 
@@ -84,7 +82,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               aria-label={info.label}
             >
-              <span className="w-12 h-12 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300">
+              <span className="w-12 h-12 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300 hover:text-purple">
                 {info.icon}
               </span>
             </Link>

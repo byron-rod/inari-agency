@@ -13,7 +13,7 @@ const MagicButton = ({
   position: string;
   handleClick?: () => void;
   otherClasses?: string;
-  className: string;
+  className?: string;
 }) => {
   return (
     <button

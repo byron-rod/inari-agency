@@ -32,14 +32,14 @@ const PricingList = () => {
               )}
             </div>
             <div className="md:flex w-full mb-6 justify-center">
-              <div>
+              <a href="mailto:byron303@gmail.com">
                 <MagicButton
-                  title="Get a Quote"
+                  title="Get Started"
                   icon={<FaLocationArrow />}
-                  position="center"
+                  position="right"
                   className="justify-center w-full"
                 />
-              </div>
+              </a>
             </div>
 
             <ul>

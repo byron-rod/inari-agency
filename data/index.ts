@@ -166,29 +166,29 @@ export const companies = [
 export const services = [
   {
     id: 1,
-    title: "Full Stack Development",
-    desc: "Development of web applications using modern frontend and backend technologies.",
+    title: "Custom Web Application Development",
+    desc: "We build powerful and efficient web applications from start to finish, using the latest technologies. Our solutions are tailored to meet your unique business needs, ensuring a seamless user experience and robust performance.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "UX/UI for Web Design",
-    desc: "We specialize in minimalistic modern design, with a focus on great user experience and responsive design.",
+    title: "Minimalistic Web Design",
+    desc: "Our designs prioritize simplicity and elegance, focusing on creating user-friendly and responsive websites. We ensure a modern, clean look that enhances user experience and makes your website stand out.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.webp",
   },
   {
     id: 3,
-    title: "Social Media Marketing",
-    desc: "Meta certified social media marketing, for optimized campaigns and increased user engagement.",
+    title: "Social Media Management",
+    desc: "Boost your online presence with our Meta-certified social media services. We create optimized campaigns to increase user engagement, brand awareness, and drive more traffic to your business.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.webp",
   },
   {
     id: 4,
     title: "Search Engine Optimization",
-    desc: "SEO optimization for your website, to increase your visibility and reach.",
+    desc: "Improve your website's visibility with our expert SEO services. We use advanced strategies to help your site rank higher on search engines, attracting more organic traffic and expanding your reach.",
     className: "md:col-span-2",
     thumbnail: "/exp4.webp",
   },
