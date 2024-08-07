@@ -66,7 +66,7 @@ export const projects = [
   {
     id: 1,
     title: "Virtus Bookstore",
-    des: "MERN Stack bookstore with a payment gateway, user authentication, and a responsive design.",
+    des: "Online bookstore with a payment gateway, user authentication, and admin panel.",
     img: "/virtus.webp",
     iconLists: ["/re.svg", "/tail.svg", "/mongo.webp", "/node.webp"],
     link: "https://www.virgiliocordon.com/",
@@ -74,7 +74,7 @@ export const projects = [
   {
     id: 2,
     title: "Brainwave",
-    des: "Modern UI/UX website using React.js and Tailwind CSS. It has Parallax Animations, and a responsive design.",
+    des: "Modern UI/UX website using for an AI startup, minimalistic design and animations.",
     img: "/brainwave.webp",
     iconLists: ["/re.svg", "/tail.svg", "/fm.svg"],
     link: "https://brainwave-navy.vercel.app/",
@@ -82,7 +82,7 @@ export const projects = [
   {
     id: 3,
     title: "Lens Loop",
-    des: "A social media app similar to Instagram, built with React.js, Typescript, and Tailwind CSS, ShadCN, Appwrite.",
+    des: "A social media application to share photos, like and save other user photos.",
     img: "/lensloop.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/app.svg"],
     link: "https://lens-loop-beta.vercel.app/",
@@ -90,7 +90,7 @@ export const projects = [
   {
     id: 4,
     title: "Develop",
-    des: "Marketing agency landing page built using SASS, LESS, following BEM best practices and features dark mode.",
+    des: "Marketing agency landing page with beautiful animations, dark mode and modern design.",
     img: "/develop.webp",
     iconLists: ["/css.webp", "/html.webp", "/js.webp"],
     link: "https://develop-marketing.vercel.app/",
@@ -163,7 +163,7 @@ export const companies = [
   },
 ];
 
-export const workExperience = [
+export const services = [
   {
     id: 1,
     title: "Full Stack Development",
@@ -173,7 +173,7 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "UX/UI and Web Design",
+    title: "UX/UI for Web Design",
     desc: "We specialize in minimalistic modern design, with a focus on great user experience and responsive design.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.webp",
@@ -206,5 +206,43 @@ export const socialMedia = [
   {
     id: 3,
     img: "/link.svg",
+  },
+];
+
+export const pricing = [
+  {
+    id: "0",
+    title: "Social Marketing",
+    description: "Meta advertisment plans starting at:",
+    price: "100",
+    features: [
+      "Meta certified marketers to optimize your campaigns",
+      "Return on investment tracking and analytics",
+      "Dedicated account manager to help with your social media",
+    ],
+  },
+  {
+    id: "1",
+    title: "Web Development",
+    description:
+      "Minimalistic designs and modern UI/UX web applications starting at:",
+    price: "150",
+    features: [
+      "Modern libraries and frameworks for fast and responsive web apps",
+      "SEO optimization and best practices for easier search engine indexing",
+      "Custom web design to drive conversions and user engagement",
+    ],
+  },
+  {
+    id: "2",
+    title: "SEO Optimization",
+    description:
+      "SEO services to increase your website's visibility starting at:",
+    price: "200",
+    features: [
+      "Improve site speed and performance for better user experience",
+      "Optimize your code so search engines find, crawl, and index your site",
+      "Best practices to improve title tags, meta descriptions, and more",
+    ],
   },
 ];

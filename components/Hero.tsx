@@ -50,6 +50,7 @@ const Hero = () => {
               title="About Us"
               icon={<FaLocationArrow />}
               position="right"
+              className=""
             />
           </a>
         </div>

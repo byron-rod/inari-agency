@@ -1,7 +1,10 @@
 import React from "react";
 
-import { workExperience } from "@/data";
+import { services } from "@/data";
 import { Button } from "./ui/MovingBorders";
+import MagicButton from "./ui/MagicButton";
+import { FaLocationArrow } from "react-icons/fa6";
+import Link from "next/link";
 
 const Services = () => {
   return (
@@ -10,8 +13,8 @@ const Services = () => {
         Our <span className="text-[#DD977A]">Services</span>
       </h1>
 
-      <div className="w-full mt-14 grid lg:grid-cols-4 grid-cols-1 gap-10">
-        {workExperience.map((card) => (
+      <div className="w-full mt-14 grid lg:grid-cols-4 grid-cols-1 gap-10 pointer-events-none">
+        {services.map((card) => (
           <Button
             key={card.id}
             //   random duration will be fun , I think , may be not
@@ -48,6 +51,16 @@ const Services = () => {
             </div>
           </Button>
         ))}
+      </div>
+      <div className="flex justify-center mt-6">
+        <Link href="/services">
+          <MagicButton
+            title="More Information"
+            icon={<FaLocationArrow />}
+            position="center"
+            className="justify-center w-full"
+          />
+        </Link>
       </div>
     </div>
   );

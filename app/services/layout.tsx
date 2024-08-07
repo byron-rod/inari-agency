@@ -1,19 +1,12 @@
-import Hero from "../components/Hero";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { FaHome } from "react-icons/fa";
-import Grid from "@/components/Grid";
-import Projects from "@/components/Projects";
 import { GrStatusInfo } from "react-icons/gr";
-import { FaComputer } from "react-icons/fa6";
 import { MdMiscellaneousServices } from "react-icons/md";
+import { FaComputer } from "react-icons/fa6";
 import { IoMailUnreadOutline } from "react-icons/io5";
-import Clients from "@/components/Clients";
-import Services from "@/components/Services";
-import Process from "@/components/Process";
 import Footer from "@/components/Footer";
-import Pricing from "@/components/Pricing";
 
-export default function Home() {
+const ServicesLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <main className="relative text-3xl bg-black-100 flex justify-center items-center flex-col mx-auto sm:px-10 px-5 overflow-clip">
       <div className="max-w-7xl w-full">
@@ -34,15 +27,11 @@ export default function Home() {
             },
           ]}
         />
-        <Hero />
-        <Grid />
-        <Services />
-        <Process />
-        <Projects />
-        <Pricing />
-        <Clients />
+        {children}
         <Footer />
       </div>
     </main>
   );
-}
+};
+
+export default ServicesLayout;
