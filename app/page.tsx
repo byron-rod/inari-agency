@@ -9,7 +9,6 @@ import { MdMiscellaneousServices } from "react-icons/md";
 import { IoMailUnreadOutline } from "react-icons/io5";
 import Clients from "@/components/Clients";
 import Services from "@/components/Services";
-import Process from "@/components/Process";
 import Footer from "@/components/Footer";
 import Pricing from "@/components/Pricing";
 
@@ -37,7 +36,6 @@ export default function Home() {
         <Hero />
         <Grid />
         <Services />
-        <Process />
         <Projects />
         <Pricing />
         <Clients />

@@ -36,7 +36,7 @@ const Services = () => {
               <img
                 src={card.thumbnail}
                 alt={card.thumbnail}
-                className="lg:w-32 md:w-20 w-16"
+                className="lg:w-32 md:w-40 w-24"
                 width={20}
                 height={16}
               />
@@ -53,9 +53,12 @@ const Services = () => {
         ))}
       </div>
       <div className="flex justify-center mt-10">
-        <Link href="/services">
+        <Link
+          href="/services"
+          aria-label="Additional information about our services"
+        >
           <MagicButton
-            title="More Information"
+            title="Services Details"
             icon={<FaLocationArrow />}
             position="center"
             className="justify-center w-full"

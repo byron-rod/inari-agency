@@ -2,6 +2,7 @@
 import Image from "next/image";
 import React from "react";
 import { WobbleCard } from "@/components/ui/WobbleCards";
+import Process from "@/components/Process";
 
 const Services = () => {
   return (
@@ -119,6 +120,7 @@ const Services = () => {
           </p>
         </WobbleCard>
       </div>
+      <Process />
     </section>
   );
 };

@@ -13,9 +13,9 @@ const PricingList = () => {
         {pricing.map((item) => (
           <div
             key={item.id}
-            className="w-[19rem] max-lg:w-full h-full lg:basis-1/3 px-6 bg-n-8 border border-n-6 rounded-[2rem] lg:w-auto even:py-14 odd:py-8 odd:my-4 [&>h4]:first:text-[#ffc876] [&>h4]:even:text-[#ac6aff] [&>h4]:last:text-[#ff776f]"
+            className="w-[19rem] max-lg:w-full h-full lg:basis-1/3 px-6 bg-n-8 border border-n-6 rounded-[2rem] lg:w-auto even:py-14 odd:py-8 odd:my-4 [&>h2]:first:text-[#ffc876] [&>h2]:even:text-[#ac6aff] [&>h2]:last:text-[#ff776f]"
           >
-            <h4 className="h4 mb-4">{item.title}</h4>
+            <h2 className="h4 mb-4">{item.title}</h2>
 
             <p className="body-2 min-h-[4rem] mb-3 text-n-1/50">
               {item.description}
