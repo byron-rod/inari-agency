@@ -14,20 +14,20 @@ const Footer = () => {
     {
       id: 1,
       icon: <FaInstagram />,
-      url: "https://www.instagram.com/byronrodriguez.dev/",
-      label: "Instagram profile of Byron Rodriguez",
+      url: "https://www.instagram.com/inari.webdev",
+      label: "Instagram profile of Inari Agency",
     },
     {
       id: 2,
       icon: <FaLinkedin />,
-      url: "https://www.linkedin.com/in/byron-rodriguez-1b1b3b1b3/",
-      label: "LinkedIn profile of Byron Rodriguez",
+      url: "https://www.linkedin.com/company/inari-agency/",
+      label: "LinkedIn profile of Inari Agency",
     },
     {
       id: 3,
       icon: <FaFacebook />,
-      url: "https://www.facebook.com/byronrodriguez.dev",
-      label: "Facebook profile of Byron Rodriguez",
+      url: "https://www.facebook.com/inari.webdev",
+      label: "Facebook profile of Inari Agency",
     },
   ];
 
@@ -53,7 +53,7 @@ const Footer = () => {
           Reach out and let&apos;s discuss how we can help you achieve your
           goals.
         </p>
-        <a href="mailto:byron303@gmail.com">
+        <a href="mailto:connect@inari-agency.com">
           <MagicButton
             title="Contact Us"
             icon={<FaLocationArrow />}

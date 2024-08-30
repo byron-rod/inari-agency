@@ -48,18 +48,29 @@ export const BentoGridItem = ({
   spareImg?: string;
 }) => {
   const leftLists = [
+    "MongoDB",
+    "PostgreSQL",
+    "Kinde",
     "Express",
     "ReactJS",
     "Typescript",
     "TailwindCSS",
     "NextJS",
   ];
-  const rightLists = ["NodeJS", "GraphQL", "Astro", "Firebase"];
+  const rightLists = [
+    "NodeJS",
+    "Velo",
+    "GraphQL",
+    "Astro",
+    "Firebase",
+    "Prisma",
+    "Vercel",
+  ];
 
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
-    const text = "byron303@gmail.com";
+    const text = "connect@inari-agency.com";
     navigator.clipboard.writeText(text);
     setCopied(true);
   };

@@ -32,7 +32,7 @@ const PricingList = () => {
               )}
             </div>
             <div className="md:flex w-full mb-6 justify-center">
-              <a href="mailto:byron303@gmail.com">
+              <a href="mailto:connect@inari-agency.com">
                 <MagicButton
                   title="Get Started"
                   icon={<FaLocationArrow />}
