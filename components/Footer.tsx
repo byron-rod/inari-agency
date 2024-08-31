@@ -3,6 +3,7 @@ import {
   FaInstagram,
   FaLinkedin,
   FaLocationArrow,
+  FaWhatsapp,
 } from "react-icons/fa6";
 
 import MagicButton from "./ui/MagicButton";
@@ -28,6 +29,12 @@ const Footer = () => {
       icon: <FaFacebook />,
       url: "https://www.facebook.com/inari.webdev",
       label: "Facebook profile of Inari Agency",
+    },
+    {
+      id: 4,
+      icon: <FaWhatsapp />,
+      url: "https://wa.me/50250188477",
+      label: "WhatsApp contact for Inari Agency",
     },
   ];
 
