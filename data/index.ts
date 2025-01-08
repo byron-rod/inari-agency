@@ -65,6 +65,14 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "Blvck Sheep ",
+    des: "Landing page for Blvck Sheep Shuttle services, modern design and animations.",
+    img: "/blvcksheep.webp",
+    iconLists: ["/re.svg", "/tail.svg", "/fm.svg"],
+    link: "https://www.blvck-sheep.com/",
+  },
+  {
+    id: 2,
     title: "Virtus Bookstore",
     des: "Online bookstore with a payment gateway, user authentication, and admin panel.",
     img: "/virtus.webp",
@@ -72,7 +80,7 @@ export const projects = [
     link: "https://www.virgiliocordon.com/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Brainwave",
     des: "Modern UI/UX website using for an AI startup, minimalistic design and animations.",
     img: "/brainwave.webp",
@@ -80,7 +88,7 @@ export const projects = [
     link: "https://brainwave-navy.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Lens Loop",
     des: "A social media application to share photos, like and save other user photos.",
     img: "/lensloop.jpg",
@@ -88,12 +96,20 @@ export const projects = [
     link: "https://lens-loop-beta.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Develop",
     des: "Marketing agency landing page with beautiful animations, dark mode and modern design.",
     img: "/develop.webp",
     iconLists: ["/css.webp", "/html.webp", "/js.webp"],
     link: "https://develop-marketing.vercel.app/",
+  },
+  {
+    id: 6,
+    title: "Gamer",
+    des: "Gaming website with information about games, reviews, and blog posts.",
+    img: "/gamer.webp",
+    iconLists: ["/css.webp", "/html.webp", "/js.webp"],
+    link: "https://gamer-blog-six.vercel.app/",
   },
 ];
 
@@ -106,27 +122,15 @@ export const testimonials = [
   },
   {
     quote:
-      "Collaborating with Byron and his team was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project.",
-    name: "Virgilio Cordon",
-    title: "CEO of Virtus Institute",
+      "Working with Inari Agency was a great experience. They helped me with our bakery's social media marketing and we saw a significant increase in our online presence and sales. I recommend their services to anyone looking to grow their business.",
+    name: "Michelle Quiej",
+    title: "Manager of Mon Cheri",
   },
   {
     quote:
-      "Collaborating with Byron and his team was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project.",
-    name: "Virgilio Cordon",
-    title: "CEO of Virtus Institute",
-  },
-  {
-    quote:
-      "Collaborating with Byron and his team was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project.",
-    name: "Virgilio Cordon",
-    title: "CEO of Virtus Institute",
-  },
-  {
-    quote:
-      "Collaborating with Byron and his team was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project.",
-    name: "Virgilio Cordon",
-    title: "CEO of Virtus Institute",
+      "Inari Agency's web development services are top-notch. They helped us build a custom web site for our Shuttle business, they are also helping us with our SEO and Google Ads campaigns. We are very happy with the results and the quality of their work.",
+    name: "Federico Lopez",
+    title: "Marketing Manager of Blvck Sheep",
   },
 ];
 
