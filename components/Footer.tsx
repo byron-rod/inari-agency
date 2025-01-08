@@ -33,7 +33,7 @@ const Footer = () => {
     {
       id: 4,
       icon: <FaWhatsapp />,
-      url: "https://wa.me/50250188477",
+      url: "https://wa.me/50238824965",
       label: "WhatsApp contact for Inari Agency",
     },
   ];
@@ -70,7 +70,7 @@ const Footer = () => {
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center mb-4">
         <p className="md:text-base text-sm md:font-normal font-light mb-4">
-          Copyright © 2024{" "}
+          Copyright © 2025{" "}
           <Link
             href="https://www.byronrodriguez.com"
             target="_blank"
