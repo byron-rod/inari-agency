@@ -120,18 +120,18 @@ export const testimonials = [
     name: "Virgilio Cordon",
     title: "CEO of Virtus Institute",
   },
-  {
-    quote:
-      "Working with Inari Agency was a great experience. They helped me with our bakery's social media marketing and we saw a significant increase in our online presence and sales. I recommend their services to anyone looking to grow their business.",
-    name: "Michelle Quiej",
-    title: "Manager of Mon Cheri",
-  },
-  {
-    quote:
-      "Inari Agency's web development services are top-notch. They helped us build a custom web site for our Shuttle business, they are also helping us with our SEO and Google Ads campaigns. We are very happy with the results and the quality of their work.",
-    name: "Federico Lopez",
-    title: "Marketing Manager of Blvck Sheep",
-  },
+  // {
+  //   quote:
+  //     "Working with Inari Agency was a great experience. They helped me with our bakery's social media marketing and we saw a significant increase in our online presence and sales. I recommend their services to anyone looking to grow their business.",
+  //   name: "Michelle Quiej",
+  //   title: "Manager of Mon Cheri",
+  // },
+  // {
+  //   quote:
+  //     "Inari Agency's web development services are top-notch. They helped us build a custom web site for our Shuttle business, they are also helping us with our SEO and Google Ads campaigns. We are very happy with the results and the quality of their work.",
+  //   name: "Federico Lopez",
+  //   title: "Marketing Manager of Blvck Sheep",
+  // },
 ];
 
 export const companies = [
