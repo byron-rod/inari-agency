@@ -60,10 +60,10 @@ const Footer = () => {
           Reach out and let&apos;s discuss how we can help you achieve your
           goals.
         </p>
-        <a href="mailto:connect@inari-agency.com">
+        <a href="https://wa.me/50233097278" target="_blank" rel="noopener noreferrer">
           <MagicButton
             title="Contact Us"
-            icon={<FaLocationArrow />}
+            icon={<FaWhatsapp />}
             position="right"
           />
         </a>

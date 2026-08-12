@@ -4,8 +4,7 @@ import { cn } from "@/lib/utils";
 import { BackgroundGradientAnimation } from "./GradientBg";
 import { GlobeDemo } from "./GridGlobe";
 import MagicButton from "./MagicButton";
-import { IoCopyOutline } from "react-icons/io5";
-import { useState } from "react";
+import { FaWhatsapp } from "react-icons/fa6";
 import { Vortex } from "./Vortex";
 import Image from "next/image";
 
@@ -66,14 +65,6 @@ export const BentoGridItem = ({
     "Prisma",
     "Vercel",
   ];
-
-  const [copied, setCopied] = useState(false);
-
-  const handleCopy = () => {
-    const text = "connect@inari-agency.com";
-    navigator.clipboard.writeText(text);
-    setCopied(true);
-  };
 
   return (
     <div
@@ -186,19 +177,16 @@ export const BentoGridItem = ({
           )}
           {id === 6 && (
             <div className="mt-5 relative">
-              <div
-                className={`absolute -bottom-5 right-0 ${
-                  copied ? "block" : "block"
-                }`}
-              ></div>
+              <div className="absolute -bottom-5 right-0 block"></div>
 
-              <MagicButton
-                title={copied ? "Copied!" : "Copy Email"}
-                icon={<IoCopyOutline />}
-                position="left"
-                handleClick={handleCopy}
-                otherClasses="!bg-[#161A31]"
-              />
+              <a href="https://wa.me/50233097278" target="_blank" rel="noopener noreferrer">
+                <MagicButton
+                  title="Message Us"
+                  icon={<FaWhatsapp />}
+                  position="left"
+                  otherClasses="!bg-[#161A31]"
+                />
+              </a>
             </div>
           )}
         </div>
