@@ -230,7 +230,7 @@ export const pricing = [
     title: "Web Development",
     description:
       "Modern UX/UI design and web application development starting at:",
-    price: "200",
+    price: "150",
     features: [
       "Modern libraries and frameworks for fast and responsive web apps",
       "SEO optimization and best practices for easier search engine indexing",
@@ -242,7 +242,7 @@ export const pricing = [
     title: "SEO Optimization",
     description:
       "SEO services to increase your website's visibility starting at:",
-    price: "350",
+    price: "200",
     features: [
       "Improve site speed and performance for better user experience",
       "Optimize your code so search engines find, crawl, and index your site",
